@@ -1,0 +1,8 @@
+.env
+.idea
+img
+vendor
+bin/chromedriver
+images/*
+config.json
+out.csv

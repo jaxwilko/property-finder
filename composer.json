@@ -1,0 +1,22 @@
+{
+    "name": "jaxwilko/property-finder",
+    "authors": [
+        {
+            "name": "Jack Wilkinson",
+            "email": "me@jackwilky.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "php-webdriver/webdriver": "^1.6",
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jax\\PropertyFinder\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
